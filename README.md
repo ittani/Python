@@ -101,3 +101,41 @@ print(jel.format(age))
 year=2022
 gal="The year is {}, and i'm {} years old"
 print(gal.format(year,age))
+"""string methods"""
+t="good morning"
+print(t.capitalize())
+
+#Boolean 
+print(9<0)
+print (2>8)
+print(4>1)
+#if else statement
+a=80
+b=200
+if a > b :
+    print("a is greater than b")
+else :
+    print ("a is less than b")
+#Boolean function e.g
+
+def my_fun():
+    return False #if a function returns true, then 
+if my_fun():  
+    print("Yes!") #it will print Yes!
+else:
+    print("NO!")
+"""Python operational methods"""
+#floor division'
+t2=7
+T2=2
+print(t2 // T2) #rounds the number to the nearest whole number
+
+#expotation
+t3=2
+T3=5
+print(t3 ** T3) # same as 2*2*2*2*2
+
+if t3 >= T3:
+    print("2 is greater than 5")
+else:
+    print("2 is less than 5")
