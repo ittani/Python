@@ -56,6 +56,7 @@ def Ittani():
     print(r)
     Ittani()
 print("My name is " + r)
+
 #data types
 f1=complex(4j)
 print("The complex number is ",f1)
@@ -69,5 +70,34 @@ f3= -6+2j
 print("The sum is ", F2 + f3) # the magic of complex numbers
 print(random.randrange(1,20)) #printing a random number between 1 and 20
 
-site: https://www.w3schools.com/python/python_strings.asp
-charpter: Python Strings
+#length of string
+a3="stellenbosch university"
+print(len(a3))
+
+#checking string
+text="Ittani is doing engineering"
+print("doing" in text)
+#modifying strings
+lop= "love is blind"
+opl="HATE IS A STRONG WORD"
+print(lop.upper())
+print(opl.lower())
+
+#removing white space from strings
+pol="  hellow michael  "
+print(pol)
+print(pol.strip())
+
+#concating strings
+a5="Ittani"
+b5="letitia"
+c5=a5+" "+b5
+print(c5)
+
+#String format
+age=25
+jel="I'm ittani, and i'm {} years old"
+print(jel.format(age))
+year=2022
+gal="The year is {}, and i'm {} years old"
+print(gal.format(year,age))
