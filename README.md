@@ -43,7 +43,7 @@ x1,y1,p1="mike", "ado", "Bafo"
 print(x1)
 print(y1)
 print(p1)
-#important assignment
+#Assignment
 
 sports=["soccer","Rugby","Cricket","Formula1"]
 x2,y2,z2,f2=sports
