@@ -1,2 +1,73 @@
 # Python
 selft education on python
+"""
+Python can be used on a server to create web applications.
+Python can be used alongside software to create workflows.
+Python can connect to database systems. It can also read and modify files.
+Python can be used to handle big data and perform complex mathematics.
+Python can be used for rapid prototyping, or for production-ready software development.
+"""
+import random
+if 5 > 4:
+    print("five is greater than four")
+if 4 > 8:
+    print("Mathematics ain't right")
+    print ("Four is less than 8")
+    print ("The night is still young")
+#assigning operators
+x=9
+y="Ittani is a cool guy"
+z=9.8 #double variable assigned
+#printing out the values
+print("her age is",x)
+print(y)
+"""
+Type Casting 
+"""
+p=int(5) #Type casting
+l=str("Ittani") #Type casting
+print(p) 
+print(l)
+
+"""Case sensetive thing e.i"""
+a=6
+A="Hildah Baloyi"
+#print(a)
+print(A)
+#Variables names
+_v=8
+_v1="Mufeba"
+print(_v)
+print(_v1)
+x1,y1,p1="mike", "ado", "Bafo"
+print(x1)
+print(y1)
+print(p1)
+#important assignment
+
+sports=["soccer","Rugby","Cricket","Formula1"]
+x2,y2,z2,f2=sports
+print("sports Types:",x2,y2,z2,f2)
+#global variable
+r="Ittani"
+def Ittani():
+    global r
+    r="Maemo"
+    print(r)
+    Ittani()
+print("My name is " + r)
+#data types
+f1=complex(4j)
+print("The complex number is ",f1)
+F1=complex(8j)
+print("The sum of complex number is ",f1 + F1)
+f2= True
+if (4 < 7):
+    print(f2)
+F2= 8+6j
+f3= -6+2j
+print("The sum is ", F2 + f3) # the magic of complex numbers
+print(random.randrange(1,20)) #printing a random number between 1 and 20
+
+site: https://www.w3schools.com/python/python_strings.asp
+charpter: Python Strings
