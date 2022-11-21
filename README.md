@@ -154,6 +154,7 @@ if "lion" in thislist:
     print("yes, lion is in the list")
 else:
     print("No, lion is not in the list")
+    
 """ changing  items in the list """
 thislist[1]="nooit"
 print(thislist)
@@ -166,3 +167,38 @@ print (Thislist)
 #use insert() to instert an item at a specified index
 Thislist.insert(0,"cherry")
 print(Thislist)
+"""Remove List Items """
+school=["UP","stellies","wits","UJ"]
+print(school)
+school.remove("UJ")
+print(school)
+school.pop() #removes the last item from the list
+print(school)
+del school[0] # delete item from specified list
+print(school)
+del school #delete the entire list
+school1=["ape","chip","lion"]
+print(school1)
+school1.clear()
+print(school1)
+
+"""Loop Lists """
+school2=["ape","chip","lion"]
+for x in school2:
+    print(x)
+print("\n Using a while loop")
+i=0
+while i < len(school2): #while loop
+    print(school2[i])
+    i=i+1
+
+"""Sorting a list""" 
+print("\n Sorted list")
+school3=["Cane","Love","Aid","health","Insurance"]
+school3.sort()
+print(school3)
+school4=[90,49,-80,6,55,35,-95]
+school4.sort()
+print(school4)
+school4.sort( reverse= True) #sorting in descending order
+print(school4)
