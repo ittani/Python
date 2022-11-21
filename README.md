@@ -139,3 +139,30 @@ if t3 >= T3:
     print("2 is greater than 5")
 else:
     print("2 is less than 5")
+    
+"""python list"""
+thisls=["gippe", "G man","Thomas"]
+print(thisls)
+print(thisls[0])
+print(thisls[2])
+#list constructor
+thislist= list(("lion", "seal","Elephant")) #list() is a constructor
+print(thislist)
+print(thislist[-1]) # -1 print the last item in the list
+print(thislist[-2]) #-2 refers to the second last item
+if "lion" in thislist:
+    print("yes, lion is in the list")
+else:
+    print("No, lion is not in the list")
+""" changing  items in the list """
+thislist[1]="nooit"
+print(thislist)
+thislist[1:2]=["Ivan","Bafana"]
+print(thislist)
+#use append() to add items to the list
+Thislist= ["hate","love"]
+Thislist.append("wisdom")
+print (Thislist)
+#use insert() to instert an item at a specified index
+Thislist.insert(0,"cherry")
+print(Thislist)
