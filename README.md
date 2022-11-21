@@ -202,3 +202,46 @@ school4.sort()
 print(school4)
 school4.sort( reverse= True) #sorting in descending order
 print(school4)
+#Python tuple
+tup=("Banana","cook","orange","chicken","Air")
+print(tup)
+print(tup[:2])
+#updating a tuple
+y=list(tup)  #changing tuple value"""
+y[1]="Ittani"
+tup= tuple(y)
+print(tup)
+#adding an item to tuple
+v= list(tup)
+v.append("rock")
+tup=tuple(v)
+print(tup)
+#removing items from a tuple
+c= list(tup)
+c.remove("Banana")
+tup=tuple(c)
+print(tup)
+#deleting a tuple
+del tup
+#print(tup) #get an error message because the tuple is removed
+#unpacking a tuple
+print("\n unpacking a tuple")
+tup1=("Banana","cook","orange","dog","snoop","orima")
+(red,brown,green,*moddah)=tup1
+print(red)
+print(brown)
+print(green)
+print(moddah)
+#looping through tuple
+for x in tup1:
+    print(x)
+#looping using while loop
+i=0
+while i < len(tup1):
+    print(tup1[i])
+    i=i+1
+#joining tuples together
+tup2=("a","c","v")
+tup3=("a1","a2","c2")
+tup4=tup2+tup3
+print(tup4)
