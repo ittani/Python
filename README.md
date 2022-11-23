@@ -270,3 +270,9 @@ age=int(input("Enter your age \n"))
 print("name: "+name)
 print("surname:"+ surname)
 print("age",age)
+#example 3
+i=int(input("How many test did you wrote? \n"))
+x=1
+while x<=i :
+    test=float(input("Enter the grade for test \n"))
+    x=1+x
