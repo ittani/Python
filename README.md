@@ -245,3 +245,28 @@ tup2=("a","c","v")
 tup3=("a1","a2","c2")
 tup4=tup2+tup3
 print(tup4)
+
+# Python program to take integer, str and float inputs
+#example 1
+a=int(input("enter the value of a \n"))
+b=int(input("enter the value of b \n"))
+c=int(input("enter the value of c \n"))
+
+if a > b:
+    print("a is greater than b")
+elif a<b:
+    print("a is less than b")
+else:
+    print("a is equal to b")
+
+if a>c:
+    print("a is greater than C")
+else:
+    print("a is less than C")
+#example 2
+name=str(input("Enter your name \n"))
+surname=str(input("Enter your last name \n"))
+age=int(input("Enter your age \n"))
+print("name: "+name)
+print("surname:"+ surname)
+print("age",age)
