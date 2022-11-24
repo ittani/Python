@@ -57,7 +57,7 @@ def Ittani():
     Ittani()
 print("My name is " + r)
 
-#data types
+# data types
 f1=complex(4j)
 print("The complex number is ",f1)
 F1=complex(8j)
@@ -74,7 +74,7 @@ print(random.randrange(1,20)) #printing a random number between 1 and 20
 a3="stellenbosch university"
 print(len(a3))
 
-#checking string
+# checking string
 text="Ittani is doing engineering"
 print("doing" in text)
 #modifying strings
@@ -83,7 +83,7 @@ opl="HATE IS A STRONG WORD"
 print(lop.upper())
 print(opl.lower())
 
-#removing white space from strings
+# Removing white space from strings
 pol="  hellow michael  "
 print(pol)
 print(pol.strip())
@@ -94,7 +94,7 @@ b5="letitia"
 c5=a5+" "+b5
 print(c5)
 
-#String format
+# String format
 age=25
 jel="I'm ittani, and i'm {} years old"
 print(jel.format(age))
@@ -105,7 +105,7 @@ print(gal.format(year,age))
 t="good morning"
 print(t.capitalize())
 
-#Boolean 
+# Boolean 
 print(9<0)
 print (2>8)
 print(4>1)
@@ -124,7 +124,7 @@ if my_fun():
     print("Yes!") #it will print Yes!
 else:
     print("NO!")
-"""Python operational methods"""
+# Python operational methods
 #floor division'
 t2=7
 T2=2
@@ -155,12 +155,12 @@ if "lion" in thislist:
 else:
     print("No, lion is not in the list")
     
-""" changing  items in the list """
+# Changing  items in the list
 thislist[1]="nooit"
 print(thislist)
 thislist[1:2]=["Ivan","Bafana"]
 print(thislist)
-#use append() to add items to the list
+# use append() to add items to the list
 Thislist= ["hate","love"]
 Thislist.append("wisdom")
 print (Thislist)
@@ -202,21 +202,21 @@ school4.sort()
 print(school4)
 school4.sort( reverse= True) #sorting in descending order
 print(school4)
-#Python tuple
+# Python tuple
 tup=("Banana","cook","orange","chicken","Air")
 print(tup)
 print(tup[:2])
-#updating a tuple
+# updating a tuple
 y=list(tup)  #changing tuple value"""
 y[1]="Ittani"
 tup= tuple(y)
 print(tup)
-#adding an item to tuple
+# adding an item to tuple
 v= list(tup)
 v.append("rock")
 tup=tuple(v)
 print(tup)
-#removing items from a tuple
+# removing items from a tuple
 c= list(tup)
 c.remove("Banana")
 tup=tuple(c)
@@ -235,7 +235,7 @@ print(moddah)
 #looping through tuple
 for x in tup1:
     print(x)
-#looping using while loop
+# looping using while loop
 i=0
 while i < len(tup1):
     print(tup1[i])
