@@ -276,3 +276,14 @@ x=1
 while x<=i :
     test=float(input("Enter the grade for test \n"))
     x=1+x
+# Catching Exceptions in Python
+#Example 1
+print("finding the division between two values")
+try:
+    x=int(input("Enter x value \n"))
+    y=int(input("Enter y value \n"))
+    div= x/y
+    print("Results",div)
+except ZeroDivisionError:
+    print("input can't be zero")
+print("program ends, Try again")
