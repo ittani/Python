@@ -66,3 +66,4 @@ print(custom_function([3, 1, 4, 1, 5, 9]))  # Sorts the list
 print(custom_function(42))  # Doubles the integer
 print(custom_function(3.14))  # Unsupported data type   
 
+
