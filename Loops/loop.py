@@ -47,22 +47,3 @@ for vaccine in Vaccines:
     print("I would like to take a short of:")
     for i in vaccine:
         print(i)
-
-""""
-We gonna do fun stuff with loops
-"""
-
-# Infinite loop example
-# This code will run indefinitely until interrupted by the user (e.g., pressing Ctrl+C)
-# It prints a message every second and doubles the value of x each time
-# The loop will break when x reaches or exceeds 250
-
-import time
-x =2
-while True:
-    print("I am waiting for you to press Ctrl+C to stop the loop: ",x)
-    time.sleep(1)  # Sleep for 1 second
-    x *=2
-    if x >= 250:
-        print(f"x has reached '{x}', breaking the loop.")
-        break
