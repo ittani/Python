@@ -1,4 +1,4 @@
-# 🐍 Python Learning Journey
+s# 🐍 Python Learning Journey
 
 Welcome to my **Python Learning Repository**! This project is a collection of code snippets, exercises, and small projects that document my journey in learning Python — from the basics to more advanced concepts.
 
@@ -52,9 +52,10 @@ As part of my Python learning, I've started exploring **data visualization** usi
 
 ### 1️⃣ Bullet Chart
 
-A bullet chart showing value ranges, a target marker, and performance bar.
-
 ![alt text](image.png)
+---
+### 1️⃣ Line Chart
+![alt text](image-1.png)
 
 ### 2️⃣ Hexbin Plot
 
