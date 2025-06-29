@@ -12,6 +12,18 @@ print_name()
 Devops=["jenkins", "docker", "kubernetes", "ansible", "terraform"]
 Development=["python", "java", "javascript", "c++", "c#"]
 softskills=["communication", "teamwork", "problem-solving", "adaptability", "time management"]
+soft_skills = {
+    "emotional intelligence": "Ability to understand and manage your own emotions and those of others",
+    "critical thinking": "Ability to analyze facts to form a judgment",
+    "leadership": "Ability to inspire, guide, and influence others",
+    "work ethic": "Demonstrating dedication, responsibility, and professionalism",
+    "creativity": "Ability to think outside the box and generate innovative ideas",
+    "conflict resolution": "Ability to mediate disagreements and find peaceful solutions",
+    "interpersonal skills": "Ability to build and maintain positive relationships with others",
+    "resilience": "Ability to bounce back from setbacks and remain persistent",
+    "attention to detail": "Thoroughness and accuracy in accomplishing tasks",
+    "active listening": "Fully concentrating, understanding, and responding thoughtfully in conversations"
+}
 
 skill_set = input("\nPlease enter your skill set (devops, development, softskills): ").strip().lower()
 
@@ -21,6 +33,11 @@ elif skill_set in Development:
     print(f"\nYou have selected Development skills: {skill_set}.")
 elif skill_set in softskills:
     print(f"\nYou have selected Soft Skills: {skill_set}.")
+
+elif skill_set in soft_skills:
+    print(f"\nYou have selected Soft Skills: {skill_set}.")
+    print(f"Description: {soft_skills[skill_set]}")
+
 else:
     print(f"\nThe skill set '{skill_set}' is not recognized. Please choose from DevOps, Development, or Soft Skills.")
 
