@@ -38,3 +38,12 @@ print("\nNested loops example:")
 for i in range(3):
     for j in range(2):
         print(f"i: {i}, j: {j}")
+
+
+# printing vaccines vertically
+print("\nVaccines printed vertically:")
+for vaccine in Vaccines:
+    print("") 
+    print("I would like to take a short of:")
+    for i in vaccine:
+        print(i)
