@@ -40,3 +40,29 @@ def join_strings(strings, separator="."):
     return separator.join(strings)
 print("\n",join_strings(["192", "168", "49","12"]))
 print("\n",join_strings(["192", "164", "32","5"]))
+
+# Example of using a built-in function to sort a list
+def sort_list(numbers):
+    """Sort a list of numbers."""
+    return sorted(numbers)
+print("\n",sort_list([5, 2, 9, 1, 5, 6, 3, 8, 7, 4]))
+print(sort_list([10, 20, 30, 40, 50]))
+
+# Extending the built-in function to create a custom function
+def custom_function(data):
+    """Custom function that uses built-in functions."""
+    if isinstance(data, str):
+        return data.upper()
+    elif isinstance(data, list):
+        return sorted(data)
+    elif isinstance(data, int):
+        return data * 2
+    elif isinstance(data, float):
+        return data * 2.0
+    else:
+        return "Unsupported data type"
+print("\n",custom_function("hello world"))  # Converts string to uppercase
+print(custom_function([3, 1, 4, 1, 5, 9]))  # Sorts the list
+print(custom_function(42))  # Doubles the integer
+print(custom_function(3.14))  # Unsupported data type   
+
