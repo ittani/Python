@@ -19,6 +19,7 @@ This repo is organized into folders that represent different areas of Python lea
 | `FileIO/`         | Reading from and writing to files. |
 | `ErrorHandling/`  | Try/except blocks, custom exceptions. |
 | `Projects/`       | Mini projects and applied practice. |
+| `Visualizations/` | Bullet charts, hexabin plots, and other data visuals. |
 
 ---
 
@@ -29,6 +30,7 @@ This repo is organized into folders that represent different areas of Python lea
 - Develop problem-solving and algorithmic thinking.
 - Explore Object-Oriented Programming (OOP).
 - Prepare for real-world Python development.
+- Visualize data using `matplotlib` and `numpy`.
 
 ---
 
@@ -40,3 +42,35 @@ This repo is organized into folders that represent different areas of Python lea
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
+```
+---
+
+## 📊 Visualizations & Plots
+
+As part of my Python learning, I've started exploring **data visualization** using `matplotlib` and `numpy`. Some of the charts I’ve created so far:
+
+### 1️⃣ Bullet Chart
+
+A bullet chart showing value ranges, a target marker, and performance bar.
+
+![alt text](image.png)
+
+### 2️⃣ Hexbin Plot
+
+A hexbin density plot created with random data:
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.random.rand(10000)
+y = np.random.rand(10000)
+
+plt.hexbin(x, y, gridsize=50, cmap='Blues', mincnt=1)
+plt.colorbar(label='Counts')
+plt.title('Hexabin Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.grid(True)
+plt.show()
