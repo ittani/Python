@@ -1,4 +1,4 @@
-s# 🐍 Python Learning Journey
+# 🐍 Python Learning Journey
 
 Welcome to my **Python Learning Repository**! This project is a collection of code snippets, exercises, and small projects that document my journey in learning Python — from the basics to more advanced concepts.
 
